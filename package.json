@@ -1,0 +1,15 @@
+{
+  "name": "meta-jam",
+  "version": "1.0.0",
+  "description": "Real time music collaboration platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Walter Moore",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "rtpmidi": "git://github.com:cellularatomaton/node-rtpmidi.git"
+  },
+  "dependencies": {}
+}
