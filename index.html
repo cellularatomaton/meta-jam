@@ -12,6 +12,7 @@
       <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
+    <div id="app">
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="https://bulma.io">
@@ -71,5 +72,12 @@
         </p>
       </div>
     </footer>
+    </div>
+    <script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+    <script>
+      new Vue({
+          el: '#app'
+      })
+  </script>
   </body>
 </html>
